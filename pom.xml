@@ -6,15 +6,17 @@
 
     <groupId>grimes.besteventdate</groupId>
     <artifactId>BestEventDate</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <modules>
         <module>CanonicalTransformer</module>
         <module>Scheduler</module>
         <module>Archiver</module>
         <module>RecommenderREST</module>
         <module>MLService</module>
+        <module>HBaseCommon</module>
     </modules>
+    <dependencies>
 
-
+    </dependencies>
 </project>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Archiver" />
         <module name="CanonicalTransformer" />
+        <module name="HBaseCommon" />
         <module name="MLService" />
         <module name="RecommenderREST" />
         <module name="Scheduler" />
