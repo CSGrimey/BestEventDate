@@ -12,7 +12,11 @@
         <module name="MLService" />
         <module name="RecommenderREST" />
         <module name="Scheduler" />
+        <module name="SparkCommon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Common" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

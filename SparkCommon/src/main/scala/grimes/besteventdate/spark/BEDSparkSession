@@ -1,0 +1,12 @@
+package grimes.besteventdate.spark
+
+import org.apache.spark.sql.SparkSession
+
+object BEDSparkSession {
+  def get(): SparkSession =
+    SparkSession
+      .builder()
+      .appName("Best event date") // Todo: Move this into a shared constants object.
+      .master("local[6]") // Todo: Change this to cluster mode once this POC works.
+      .getOrCreate()
+}

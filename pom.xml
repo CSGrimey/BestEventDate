@@ -15,6 +15,7 @@
         <module>RecommenderREST</module>
         <module>MLService</module>
         <module>HBaseCommon</module>
+        <module>SparkCommon</module>
     </modules>
     <dependencies>
 
